@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"C:/Users/<USERNAME>/.claude/hooks/pdf-to-md.py\"",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}
