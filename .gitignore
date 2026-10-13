@@ -1,0 +1,6 @@
+# Never commit real settings (they contain tokens) or cached PDF content
+settings.json
+settings.local.json
+pdf-cache/
+*.pdf
+__pycache__/
